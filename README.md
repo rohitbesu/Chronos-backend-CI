@@ -155,3 +155,26 @@ submitted → scheduled → [worker picks it up] → completed
 - [x] Authentication via API key
 - [x] RESTful API design
 - [x] File-based database (lowdb / db.json)
+
+
+Airtribe submission branch
+
+## Docker Setup
+
+### Build Docker Image
+
+```bash
+docker build -t chronos .
+```
+
+### Run Docker Container
+
+```bash
+docker run -p 3000:3000 chronos
+```
+
+### Access Application
+
+Open:
+
+http://localhost:3000
