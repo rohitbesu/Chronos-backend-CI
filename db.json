@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "id": "c2e0b317-8df8-40d8-9391-620c630ff8b4",
+      "name": "Send Weekly Report",
+      "type": "one-time",
+      "executionTime": "2026-06-07T13:31:40.162Z",
+      "cronExpression": null,
+      "payload": {
+        "email": "user@example.com"
+      },
+      "lastRunAt": "2026-06-07T13:32:00.024Z",
+      "nextRunAt": "2026-06-07T13:31:40.162Z",
+      "status": "completed",
+      "retryCount": 1,
+      "createdAt": "2026-06-07T13:31:25.224Z",
+      "updatedAt": "2026-06-07T13:32:00.024Z"
+    }
+  ]
+}
